@@ -20,12 +20,6 @@ namespace SemanticLoggingWebSample.Controllers
             _logger = log4net.LogManager.GetLogger("SemanticLoggingWebSample");
         }
 
-        [HttpGet]
-        public string Get()
-        {
-            return "Working!";
-        }
-
         [HttpPost]
         public void Log([FromBody]MessageDto message)
         {
