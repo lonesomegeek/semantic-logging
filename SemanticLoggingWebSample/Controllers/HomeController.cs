@@ -26,5 +26,7 @@ namespace SemanticLoggingWebSample.Controllers
 
             return View();
         }
+
+
     }
 }
